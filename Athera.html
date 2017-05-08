@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ATHERA</title>
+
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #white;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav li, .nav2 li, .nav3 li {
+  display: inline;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav a, .nav2 b {
+  text-decoration: none;
+  color: black;
+  transition: .3s background-color;
+}
+
+.nav a:hover, .nav2 b:hover {
+  color: #54AFF8;
+}
+
+.nav a {
+  font-family: DIN condensed, DIN Condensed;
+  font-size: 110%;
+  background-color: white;
+  float: left;
+  line-height: 80%;
+  padding: 16px;
+  margin: 0px;
+}
+
+.nav2 b {
+  font-family: DIN condensed, DIN Condensed;
+  font-size: 110%;
+  float: right;
+  background-color: white;
+  line-height: 80%;
+  padding: 16px;
+  margin-right: 26px;
+  margin-left: 110px;
+}
+
+.center c {
+  font-family: DIN condensed, DIN Condensed;
+  font-size: 250%;
+  background-color: white;
+  line-height: 140%;
+  padding: 0px;
+  padding-top: 50px;
+}
+
+.freeship ul {
+  font-family: Avenir Next Condensed, Avenir Next Condensed;
+  font-size: 110%;
+  opacity: 0.7;
+  list-style: none;
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 13px;
+  margin: 0px;
+  margin-top: -20px;
+}
+
+.wrap {
+    width: 100%;
+    position:relative;
+}
+
+#shopwomenbutton {
+  background-color: White;
+  border: white;
+  color: black;
+  font-size: 25px;
+  padding: 10px;
+  padding-top: 17px;
+  padding-left: -10px;
+  padding-right: -10px;
+  width: 200px;
+  font-family: DIN condensed, DIN Condensed;
+}
+
+#shopwomenbutton2 {
+  background-color: White;
+  border: white;
+  color: black;
+  font-size: 25px;
+  padding: 10px;
+  padding-top: 17px;
+  padding-left: -10px;
+  padding-right: -10px;
+  width: 200px;
+  font-family: DIN condensed, DIN Condensed;
+}
+
+#shopwomenbutton:hover {
+  background-color: black;
+  color: #F1F1F1;
+}
+
+#shopwomenbutton2:hover {
+  background-color: black;
+  color: #F1F1F1;
+}
+
+.buttonoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 50px;
+  left: -450px;
+  right: 0;
+  text-align: center;
+}
+
+.buttonoverlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.mensbuttonoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 50px;
+  left: 0;
+  right: -450px;
+  text-align: center;
+}
+
+.mensbuttonoverlay:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+}
+
+
+.floatleft {
+    float:left;
+    width: 50%;
+    background-color: white;
+    height: 50px;
+    margin-bottom: 300px;
+    line-height: 500%;
+}
+
+.floatright {
+    float: right;
+    width: 50%;
+    background-color: white;
+    height: 50px;
+    margin-bottom: 300px;
+    line-height: 500%;
+}
+
+#worldstrong {
+margin-top: 50px;
+  line-height: 100%;
+  height: 800px;
+  position: relative;
+  font-family: DIN condensed, DIN Condensed;
+  text-align: center;
+  font-size: 250%;
+}
+
+#footerparagraph {
+  font-family: arial;
+  text-align: justify;
+  float: left;
+  color: grey;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 30%;
+  line-height: 150%;
+}
+
+</style>
+
+<!-- HTML for NAV BAR -->
+<body class="news">
+  <header>
+    <div class="nav">
+        <ul>
+          <li class="home"><a href="shopmen.html">MEN</a></li>
+          <li class="tutorials"><a class="active" href="shopwomen.html">WOMEN</a></li>
+          <li class="about"><a href="story.html">STORY</a></li>
+        </ul>
+    </div>
+    <div class="nav2">
+        <ul>
+          <li class="homeathera"><b href="myprofile.html">MY PROFILE</b></li>
+        </ul>
+    </div>
+    <div class="center">
+        <ul>
+          <center class="homeathera2"><c href="Athera.html">ATHERA</c></center>
+        </ul>
+    </div>
+    <div class="freeship">
+      <ul>
+        <li> FREE SHIPPING ON ORDERS OVER $70 </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HTML for SHOP MENS SHOP WOMENS -->
+<div class="wrap">
+    <div class="floatleft"><img src="womenathera.png" style="height:400px;"></div>
+      <div class="buttonoverlay">
+        <button id="shopwomenbutton2"> SHOP WOMENS </button>
+      </div>
+    <div class="floatright"><img src="bryanolson.png" style="height:400px;"></div>
+      <div class="mensbuttonoverlay">
+        <button id="shopwomenbutton"> SHOP MENS </button>
+      </div>
+    <div style="clear: both;">
+</div>
+
+<footer>
+  <!-- HTML for FOOTER  -->
+<div class="socialcontainer">
+    <div id="worldstrong"style="background-color:#21252B;height:200px;">
+      <p id="footerparagraph"> Athera, LLC <br> Contact <br> My Profile <br> Story</p>
+    </div>
+</div>
+</footer>
+
+
+</body>
+
+</html>

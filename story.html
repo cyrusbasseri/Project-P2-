@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>story</title>
+
+
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #white;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav li, .nav2 li, .nav3 li {
+  display: inline;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav a, .nav2 b {
+  text-decoration: none;
+  color: black;
+  transition: .3s background-color;
+}
+
+.nav a:hover, .nav2 b:hover {
+  color: #54AFF8;
+}
+
+.nav a {
+  font-family: DIN condensed, DIN Condensed;
+  font-size: 110%;
+  background-color: white;
+  float: left;
+  line-height: 80%;
+  padding: 16px;
+  margin: 0px;
+}
+
+.nav2 b {
+  font-family: DIN condensed, DIN Condensed;
+  font-size: 110%;
+  float: right;
+  background-color: white;
+  line-height: 80%;
+  padding: 16px;
+  margin-right: 26px;
+  margin-left: 110px;
+}
+
+.center c {
+  font-family: DIN condensed, DIN Condensed;
+  font-size: 250%;
+  background-color: white;
+  line-height: 140%;
+  padding: 0px;
+  padding-top: 50px;
+}
+
+.freeship ul {
+  font-family: Avenir Next Condensed, Avenir Next Condensed;
+  font-size: 110%;
+  opacity: 0.7;
+  list-style: none;
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 13px;
+  margin: 0px;
+  margin-top: -20px;
+}
+
+#worldstrong {
+margin-top: 50px;
+  line-height: 100%;
+  height: 400px;
+  position: relative;
+  font-family: DIN condensed, DIN Condensed;
+  text-align: center;
+  font-size: 250%;
+}
+
+#socialtitle {
+  font-family: DIN condensed, DIN Condensed;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 200%;
+  line-height: 100%;
+}
+
+#socialparagraph {
+  font-family: DIN condensed, DIN Condensed;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: -10px;
+  margin-right: 100px;
+  font-size: 140%;
+  line-height: 120%;
+}
+
+#myProgress {
+    width: 70%;
+    text-align: center;
+    background-color: grey;
+    margin-left: auto; margin-right:auto;
+
+    border:2px solid #54AFF8;
+}
+#myBar {
+    width: 33%;
+    line-height: 35px; /* To center it vertically */
+    font-family: DIN condensed, DIN Condensed;
+    color: white;
+    height: 30px;
+    background-color: #54AFF8;
+}
+
+</style>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+        <ul>
+          <li class="home"><a href="shopmen.html">MEN</a></li>
+          <li class="tutorials"><a class="active" href="shopwomen.html">WOMEN</a></li>
+          <li class="about"><a href="story.html">STORY</a></li>
+        </ul>
+    </div>
+    <div class="nav2">
+        <ul>
+          <li class="homeathera"><b href="myprofile.html">MY PROFILE</b></li>
+        </ul>
+    </div>
+    <div class="center">
+        <ul>
+          <center class="homeathera2"><c href="Athera.html">ATHERA</c></center>
+        </ul>
+    </div>
+    <div class="freeship">
+      <ul>
+        <li> FREE SHIPPING ON ORDERS OVER $70 </li>
+      </ul>
+    </div>
+  </header>
+
+  <script>
+  function move() {
+    var elem = document.getElementById("myBar");
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+      } else {
+        width++;
+        elem.style.width = width + '%';
+      }
+    }
+  }
+</script>
+
+<div class="social container">
+  <p id=socialtitle> MAKING THE WORLD STRONGER. </p>
+  <p id="socialtitle" style="font-size:150%; margin-bottom:0px; margin-top:-10px"> HUNGER. </p>
+  <div id="myProgress">
+    <div id="myBar">10%</div>
+  </div>
+  <p id=socialparagraph> <br> Beyond feeling comfortable and looking badass in quality fitness gear, you also contribute to making the world a
+better place. Every goal met, we select a new initiative in our pursuit of strengthening the human race. </p>
+</div>
+
+</body>
+</html>
